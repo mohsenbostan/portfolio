@@ -1,0 +1,10 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"PHP/Laravel" : "95",
+		"TypeScript" : "85",
+		"Node.js" : "80",
+		"React.js" : "70",
+		"Golang" : "80"
+	}
+}
