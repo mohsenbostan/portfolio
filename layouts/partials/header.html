@@ -1,13 +1,10 @@
 {{ $config := .Site.Data.config }}
-
+<!--  -->
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>
-      {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if
-      .IsHome }} {{ .Site.Title }} {{ else if .Params.heading }} {{
-      .Params.heading }} {{ else }} {{ .Title }} | {{ .Site.Title }} {{ end }}
-    </title>
+    <title>Mohsen Bostan</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Including the bootstrap -->
